@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import PropTypes from "prop-types";
 
 import s from "./FormContact.module.scss";
-import Button from "../Button";
+import PrimeryButton from "../UI/Button";
 
 const INITIAL_STATE = {
   name: "",
@@ -76,7 +76,7 @@ export default class FormContact extends Component {
             placeholder="Enter phone, please"
           />
         </label>
-        <Button type="submit" title="Add Contact" />
+        <PrimeryButton type="submit">Add Contact</PrimeryButton>
       </form>
     );
   }

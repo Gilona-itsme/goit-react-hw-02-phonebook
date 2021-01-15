@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 //import { v4 as uuidv4 } from "uuid";
 
-import Container from "./Container";
-import Section from "./Section";
+import Container from "./UI/Container";
+import Section from "./UI/Section";
 import FormContact from "./FormContact";
 import ContactList from "./ContactList";
 import Filter from "./Filter";

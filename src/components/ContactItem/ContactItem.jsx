@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
-
+import PrimeryButton from '../UI/Button'
 import s from "./ContactItem.module.scss";
 
 const ContactItem = ({ name, phone, onRemove }) => {
@@ -12,9 +12,8 @@ const ContactItem = ({ name, phone, onRemove }) => {
       
       <p className={s.contact}>
         <span className={s.name}>{name}</span>:<span className={s.phone}>{phone}</span>
-         <button className={s.button} type="button" onClick={onRemove}>
-        Delete
-      </button>
+        
+        <PrimeryButton className={s.button} type="button" onClick={onRemove}>Delete</PrimeryButton>
       </p>
      
 
